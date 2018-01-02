@@ -1,3 +1,3 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :created_at, :username
+  attributes :id, :created_at, :username
 end
